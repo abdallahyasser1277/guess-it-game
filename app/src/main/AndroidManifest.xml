@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.android.guesstheword">
+    package="com.abdallahyasser.android.guesstheword">
 
     <application
         android:allowBackup="true"
@@ -30,7 +30,7 @@
         <!-- Screen locked to landscape for easier play -->
         <!-- configChanges attribute makes the following actions NOT cause a config change  -->
         <!-- screenOrientation attribute sets the default animation-->
-        <activity android:name=".MainActivity">
+        <activity android:name="com.abdallahyasser.android.guesstheword.MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

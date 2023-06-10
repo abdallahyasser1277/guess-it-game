@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.guesstheword.screens.score
+package com.abdallahyasser.android.guesstheword.screens.score
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,8 +26,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.android.guesstheword.R
-import com.example.android.guesstheword.databinding.ScoreFragmentBinding
+import com.abdallahyasser.android.guesstheword.R
+import com.abdallahyasser.android.guesstheword.databinding.ScoreFragmentBinding
 
 /**
  * Fragment where the final score is shown, after the game is over

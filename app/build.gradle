@@ -23,7 +23,7 @@ apply plugin: "androidx.navigation.safeargs.kotlin"
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.example.android.guesstheword"
+        applicationId "com.abdallahyasser.android.guesstheword"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1

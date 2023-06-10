@@ -14,26 +14,20 @@
  * limitations under the License.
  */
 
-package com.example.android.guesstheword
+package com.abdallahyasser.android.guesstheword
 
-import androidx.test.InstrumentationRegistry
-import androidx.test.runner.AndroidJUnit4
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import org.junit.runner.RunWith
 
 /**
- * Instrumented test, which will execute on an Android device.
+ * Example local unit test, which will execute on the development machine (host).
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-@RunWith(AndroidJUnit4::class)
-class ExampleInstrumentedTest {
+class ExampleUnitTest {
 
     @Test
-    fun useAppContext() {
-        // Context of the app under test.
-        val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.example.android.guesstheword", appContext.packageName)
+    fun addition_isCorrect() {
+        assertEquals(4, 2 + 2)
     }
 }

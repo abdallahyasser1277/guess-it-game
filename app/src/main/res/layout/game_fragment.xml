@@ -20,7 +20,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.android.guesstheword.screens.game.GameViewModel" />
+            type="com.abdallahyasser.android.guesstheword.screens.game.GameViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
