@@ -26,10 +26,10 @@
 
     <!-- Button Styles -->
     <style name="GoButton" parent="Widget.AppCompat.Button.Colored">
-        <item name="colorButtonNormal">@color/ok_green_color</item>
-        <item name="colorControlHighlight">@color/selected_green_color</item>
+        <item name="colorButtonNormal">@color/ok_blue_color</item>
+        <item name="colorControlHighlight">@color/selected_blue_color</item>
         <item name="android:textColor">@color/white_text_color</item>
-        <item name="colorAccent">@color/selected_green_color</item>
+        <item name="colorAccent">@color/selected_blue_color</item>
     </style>
 
     <style name="SkipButton" parent="Widget.AppCompat.Button.Colored">
